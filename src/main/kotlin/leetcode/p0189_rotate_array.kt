@@ -1,3 +1,5 @@
+package leetcode
+
 import kotlin.random.Random
 
 class Solution189 {

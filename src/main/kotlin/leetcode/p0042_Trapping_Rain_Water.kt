@@ -1,4 +1,4 @@
-
+package leetcode
 class Solution42 {
     fun trap(heights: IntArray): Int {
         var water = 0

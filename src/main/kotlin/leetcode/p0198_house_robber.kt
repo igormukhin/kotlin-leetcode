@@ -1,3 +1,5 @@
+package leetcode
+
 class Solution198 {
 
     fun rob(nums: IntArray): Int {
