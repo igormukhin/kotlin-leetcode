@@ -46,7 +46,7 @@ class Solution4 {
         return if (mid * 2 != fullSize) {
             findAtPos(mid).toDouble()
         } else {
-            0.5 * (findAtPos(mid - 1) + findAtPos(mid))
+            (findAtPos(mid - 1) + findAtPos(mid)) / 2.0
         }
     }
 
